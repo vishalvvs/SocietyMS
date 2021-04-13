@@ -1,0 +1,132 @@
+*{
+	margin:0;
+	padding: 0;
+    font-family: Pacifico;
+   
+
+}
+
+header{
+    background-image : linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/sms.jpeg);
+    height:-webkit-fill-available;
+    
+	
+}
+
+
+
+ul{
+	list-style-type: none;
+	float:right;
+	margin-top: 25px;
+}
+
+ul li{
+	display:inline-block;
+
+}
+
+ul li a {
+	text-decoration: none;
+	color: #ffffff;
+	padding: 5px 20px;
+	border: 1px solid #ffffff;
+	transition: 0.6s ease;
+
+}
+
+ul li a:hover{
+	background-color:bisque;
+	color:black;
+}
+
+.logo img{
+	float:left;
+	width:200px;
+	height:-webkit-fill-available;
+}
+
+.main{
+
+	max-width:100%;
+	margin:auto;
+	background-color: black;
+	height:75px;
+}
+
+ul li .active a{
+	background-color:bisque;
+	color:black;
+
+}
+
+
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+details > summary {
+    padding: 12px;
+    width: 444px;
+    background-color: #e29b02;
+    border: none;
+    box-shadow: 1px 1px 2px #000000;
+    cursor: pointer;
+    margin-left:350px;
+    margin-top:50px;
+  }
+  
+  details > ul {
+    list-style-type: disc;
+    background-color: #a55d0b;
+    padding: 10px;
+    margin: 30px;
+    box-shadow: 1px 1px 2px #bbbbbb;
+    color: white;
+  }
+
+
+.title{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+
+}
+
+.title h1{
+	color: #ffffff;
+	font-size: 70px;
+}
+.title p{
+	color:bisque;
+	font-size:50px;
+}
+
+.blink {
+		    -webkit-animation: blink 1s step-end infinite;
+		            animation: blink 1s step-end infinite;
+		}
+		@-webkit-keyframes blink { 50% { visibility: hidden; }}
+		        @keyframes blink { 50% { visibility: hidden; }}
+
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.footer {
+   position: inherit;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #7a3700;
+   color: white;
+   text-align: left;
+   font-size: 25px;
+   height:30px;
+}
